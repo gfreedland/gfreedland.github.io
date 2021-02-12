@@ -47,6 +47,13 @@ nav {
   height: 3px;
   background-color: rgb(226, 226, 226);
   margin: 5px;
+  transition: transform 0.3s ease-in;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -64,7 +71,7 @@ nav {
     align-items: center;
     width: 50%;
     transform: translateX(100%);
-    transition: transform 0.5s ease-in;
+    transition: transform 0.3s ease-in;
   }
   .nav-links li {
     opacity: 0;
@@ -91,7 +98,7 @@ nav {
 }
 
 .toggle .line1 {
-  transform: rotate(-45deg translate(-5px, 6px));
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .toggle .line2 {
@@ -99,5 +106,5 @@ nav {
 }
 
 .toggle .line3 {
-  transform: rotate(45deg translate(-5px, 6px));
+  transform: rotate(45deg) translate(-5px, 6px);
 }
