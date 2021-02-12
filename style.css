@@ -70,5 +70,10 @@ nav {
   }
   .burger {
     display: block;
+    cursor: pointer;
   }
 }
+
+/* .nav-active {
+  transform: translateX(0%);
+} */
