@@ -44,6 +44,7 @@ nav {
 }
 
 .burger div {
+  display: block;
   width: 25px;
   height: 3px;
   background-color: rgb(226, 226, 226);
