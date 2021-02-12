@@ -7,10 +7,12 @@ const navSlide = () => {
   });
 };
 
-const app = () => {
-  navSlide();
-};
-
-// function app() {
+// const app = () => {
 //   navSlide();
-// }
+// };
+
+function app() {
+  navSlide();
+}
+
+app();
