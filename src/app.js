@@ -7,12 +7,8 @@ const navSlide = () => {
   });
 };
 
-// const app = () => {
-//   navSlide();
-// };
-
-function app() {
+const app = () => {
   navSlide();
-}
+};
 
 app();
