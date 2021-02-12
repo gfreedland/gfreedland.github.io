@@ -27,7 +27,7 @@ nav {
 }
 
 .nav-links li {
-  display: block;
+  display: inline-block;
   list-style: none;
 }
 
@@ -37,7 +37,7 @@ nav {
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
-  display: block;
+  display: inline-block;
 }
 
 .burger {
@@ -45,7 +45,7 @@ nav {
 }
 
 .burger div {
-  display: block;
+  display: inline-block;
   width: 25px;
   height: 3px;
   background-color: rgb(226, 226, 226);
@@ -81,7 +81,7 @@ nav {
     opacity: 0;
   }
   .burger {
-    display: block;
+    display: inline-block;
     cursor: pointer;
   }
 }
