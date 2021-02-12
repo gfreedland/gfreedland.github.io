@@ -57,15 +57,15 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  /* body {
     overflow-x: hidden;
-  }
+  } */
   .nav-links {
     position: absolute;
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5d4954;
+    /* background-color: #5d4954; */
     display: flex;
     flex-direction: column;
     align-items: center;
