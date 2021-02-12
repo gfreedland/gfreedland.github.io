@@ -81,7 +81,7 @@ nav {
     opacity: 0;
   }
   .burger {
-    display: inline-block;
+    display: block;
     cursor: pointer;
   }
 }
