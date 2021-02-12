@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: black;
 }
 
 nav {
@@ -28,6 +27,7 @@ nav {
 }
 
 .nav-links li {
+  display: block;
   list-style: none;
 }
 
@@ -37,6 +37,7 @@ nav {
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
+  display: block;
 }
 
 .burger {
@@ -67,14 +68,14 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    /* background-color: #5d4954; */
+    background-color: #5d4954;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
-    z-index: 3;
+    /* z-index: 3; */
   }
   .nav-links li {
     opacity: 0;
